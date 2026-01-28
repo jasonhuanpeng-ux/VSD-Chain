@@ -1,0 +1,50 @@
+[
+  {
+    "id": "app_01",
+    "heroImage": "/images/applications/application-palm-oil-conveyor.jpg",
+    "slug": "palm-oil-processing",
+    "name": "Palm Oil Processing",
+    "summary": "Heavy-duty chains designed for the demanding environments of palm oil extraction and milling.",
+    "relatedCategorySlugs": ["palm-oil-chain"]
+  },
+  {
+    "id": "app_02",
+    "heroImage": "/images/applications/application-sugar-mill.jpg",
+    "slug": "sugar-mill",   
+    "name": "Sugar Mill",
+    "summary": "Reliable conveying solutions for sugar cane carriers and processing equipment.",
+    "relatedCategorySlugs": ["sugar-mill-chain"]
+  },
+  {
+    "id": "app_03",
+    "heroImage": "/images/applications/application-material-handling.webp",
+    "slug": "conveyor-material-handling",
+    "name": "Conveyor & Material Handling",
+    "summary": "Versatile chain systems for industrial automation and bulk material transport.",
+    "relatedCategorySlugs": ["welded-chain", "drop-forged-rivetless-chain"]
+  },
+  {
+    "id": "app_04",
+    "heroImage": "/images/applications/application-agriculture-machinery.jpg",
+    "slug": "agriculture-machinery",
+    "name": "Agriculture Machinery",
+    "summary": "Durable driving and conveyor chains for harvesting and planting equipment.",
+    "relatedCategorySlugs": ["welded-chain"]
+  },
+  {
+    "id": "app_05",
+    "heroImage": "/images/applications/application-mining-heavy-duty.jpg",
+    "slug": "mining-heavy-duty",
+    "name": "Mining / Heavy Duty",
+    "summary": "High-strength forged chains for the most extreme loading conditions in mining.",
+    "relatedCategorySlugs": ["drop-forged-rivetless-chain"]
+  },
+  {
+    "id": "app_06",
+    "heroImage": "/images/applications/application-general-industrial.jpg",
+    "slug": "general-industrial",
+    "name": "General Industrial",
+    "summary": "Standardized chain solutions for diverse industrial transmission needs.",
+    "relatedCategorySlugs": ["welded-chain", "palm-oil-chain"]
+  }
+]

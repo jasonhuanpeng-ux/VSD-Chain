@@ -1,0 +1,68 @@
+[
+  {
+    "id": "p_palm_101001f2",
+    "categorySlug": "palm-oil-chain",
+    "subCategory": "Standard Series",
+    "model": "101001F2",
+    "name": "Standard Palm Oil Chain (Type F2)",
+    "heroImage": "/images/products/palm-standard.jpg",
+    "description": "Standard palm oil processing chain",
+    "keySpecs": [
+      { "label": "Pitch (P)", "value": "101.6 mm" },
+      { "label": "Breaking Load (Q)", "value": "170 kN" }
+    ],
+    "fullSpecs": {
+      "Pitch (P)": "101.6 mm",
+      "Width Between Inner Plates (b1)": "19.0 mm",
+      "Roller Diameter (D)": "47.5 mm",
+      "Pin Diameter (d)": "19.05 mm",
+      "Plate Height (h)": "38.1 mm",
+      "Plate Thickness (T/t)": "6.4 mm",
+      "Ultimate Tensile Strength (Q)": "170 kN",
+      "Average Weight (q)": "7.10 kg/m"
+    }
+  },
+  {
+    "id": "p_palm_101005f1s",
+    "categorySlug": "palm-oil-chain",
+    "subCategory": "Standard Series",
+    "model": "101005F1S",
+    "name": "Palm Oil Chain with Straight Plate",
+    "heroImage": "/images/products/palm-straight.jpg",
+    "description": "Palm oil chain with straight plate design",
+    "keySpecs": [
+      { "label": "Pitch (P)", "value": "101.6 mm" },
+      { "label": "Breaking Load (Q)", "value": "119 kN" }
+    ],
+    "fullSpecs": {
+      "Pitch (P)": "101.6 mm",
+      "Width Between Inner Plates (b1)": "25.0 mm",
+      "Roller Diameter (D)": "47.5 mm",
+      "Pin Diameter (d)": "15.88 mm",
+      "Plate Height (h)": "38.1 mm",
+      "Plate Thickness (T/t)": "6.4 mm",
+      "Ultimate Tensile Strength (Q)": "119 kN",
+      "Average Weight (q)": "8.561 kg/m"
+    }
+  },
+  {
+    "id": "p_sugar_001",
+    "categorySlug": "sugar-mill-chain",
+    "subCategory": "Standard Series",
+    "model": "9060-Series",
+    "name": "Sugar Mill Roller Chain",
+    "heroImage": "/images/products/sugar-roller.jpg",
+    "description": "High strength chain for sugar production",
+    "keySpecs": [
+      { "label": "Material", "value": "Alloy Steel" },
+      { "label": "Heat Treatment", "value": "Case Hardened" }
+    ],
+    "fullSpecs": {
+      "Material": "Alloy Steel",
+      "Heat Treatment": "Case Hardened",
+      "Pitch": "50.8 mm",
+      "Breaking Load": "180 kN",
+      "Weight": "5.2 kg/m"
+    }
+  }
+]
