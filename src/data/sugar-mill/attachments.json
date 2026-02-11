@@ -1,0 +1,212 @@
+{
+  "category_id": "sugar-mill",
+  "attachments": [
+    {
+      "id": "ATT-SM-001",
+      "parent_chain_no": "9060",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-002",
+      "parent_chain_no": "9061",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-003",
+      "parent_chain_no": "1796",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-004",
+      "parent_chain_no": "C09063",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-005",
+      "parent_chain_no": "C09063H",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-006",
+      "parent_chain_no": "EC1331",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-007",
+      "parent_chain_no": "DN2184",
+      "attachment_type": "A42",
+      "attachment_number": "A42_AS2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_a42_as2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-008",
+      "parent_chain_no": "904",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-009",
+      "parent_chain_no": "9060",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-010",
+      "parent_chain_no": "9061",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-011",
+      "parent_chain_no": "1796",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-012",
+      "parent_chain_no": "C09063",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-013",
+      "parent_chain_no": "SS960",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-014",
+      "parent_chain_no": "2198",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-015",
+      "parent_chain_no": "8198",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-016",
+      "parent_chain_no": "113C",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-017",
+      "parent_chain_no": "116",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-018",
+      "parent_chain_no": "2804",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-019",
+      "parent_chain_no": "B5455",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-020",
+      "parent_chain_no": "B5457",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-021",
+      "parent_chain_no": "B5458",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-022",
+      "parent_chain_no": "8108",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/sugar_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-SM-023",
+      "parent_chain_no": "996",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/sugar-mill/attachments/sugar_att_straight_k2.png",
+      "spec_sheet": "/images/drawings/sugar-mill/attachments/Sugar_att_straight_k2_data.png",
+      "note": ""
+    }
+  ]
+}

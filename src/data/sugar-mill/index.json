@@ -1,0 +1,58 @@
+{
+  "id": "sugar-mill",
+  "name_en": "Sugar Mill",
+  "name_cn": "制糖机链条",
+  "description_en": "",
+  "description_cn": "",
+  "hero_image": "/images/categories/sugar-mill-chain-sample.png",
+  "chain_designs": [
+    {
+      "design_id": "sugar_straight_001",
+      "design_name_en": "Straight Sidebar Type Sugar Mill Chain",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_straight_001.png"
+    }, 
+    {
+      "design_id": "sugar_straight_002",
+      "design_name_en": "Straight Sidebar Type Sugar Mill Chain 2",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_straight_002.png"
+    },
+    {
+      "design_id": "sugar_cranked_001",
+      "design_name_en": "Cranked Sidebar Type Sugar Mill Chain",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_cranked_001.png"
+    },
+    {
+      "design_id": "sugar_cranked_002",
+      "design_name_en": "Cranked Sidebar Type Sugar Mill Chain 2",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_cranked_002.png"
+    },
+    {
+      "design_id": "sugar_cranked_003",
+      "design_name_en": "Cranked Sidebar Type Sugar Mill Chain 3",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_cranked_003.png"
+    },
+    {
+      "design_id": "sugar_sideroller_001",
+      "design_name_en": "Sugar Mill Chain with Side Roller",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_sideroller_001.png"
+    },
+    {
+      "design_id": "sugar_canecarrier_001",
+      "design_name_en": "Intermediate Cane Carrier Chain",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_canecarrier_001.png"
+    },
+    {
+      "design_id": "sugar_canecarrier_002",
+      "design_name_en": "Intermediate Cane Carrier Chain 2",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/sugar-mill/chains/sugar_canecarrier_002.png"
+    }
+  ]
+}

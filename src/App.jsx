@@ -33,6 +33,11 @@ function App() {
             {/* 产品相关路由 */}
             <Route path="/products" element={<Products />} /> 
             <Route path="/products/:categorySlug" element={<CategoryPage />} />
+            
+            {/* 🆕 新增：带类别的产品详情路由 */}
+            <Route path="/product/:categorySlug/:productId" element={<ProductDetail />} />
+            
+            {/* 旧路由保留兼容 */}
             <Route path="/product/:productId" element={<ProductDetail />} />
 
             {/* 应用场景相关路由 */}

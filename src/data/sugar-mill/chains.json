@@ -1,0 +1,772 @@
+{
+  "category_id": "sugar-mill",
+  "spec_columns": [
+    {
+      "key": "P",
+      "label_en": "Pitch",
+      "label_cn": "节距",
+      "unit": "mm"
+    },
+    {
+      "key": "b1",
+      "label_en": "Inner Width",
+      "label_cn": "内宽",
+      "unit": "mm"
+    },
+    {
+      "key": "R",
+      "label_en": "Roller Dia",
+      "label_cn": "滚子直径",
+      "unit": "mm"
+    },
+    {
+      "key": "d",
+      "label_en": "Pin Dia",
+      "label_cn": "销轴直径",
+      "unit": "mm"
+    },
+    {
+      "key": "id_hollow",
+      "label_en": "Hollow Pin Inner Dia",
+      "label_cn": "空心销内径",
+      "unit": "mm"
+    },
+    {
+      "key": "L1",
+      "label_en": "Pin Length L1",
+      "label_cn": "销轴长度L1",
+      "unit": "mm"
+    },
+    {
+      "key": "L2",
+      "label_en": "Pin Length L2",
+      "label_cn": "销轴长度L2",
+      "unit": "mm"
+    },
+    {
+      "key": "h",
+      "label_en": "Plate Height",
+      "label_cn": "链板高度",
+      "unit": "mm"
+    },
+    {
+      "key": "t",
+      "label_en": "Inner Plate Thickness",
+      "label_cn": "内链板厚度",
+      "unit": "mm"
+    },
+    {
+      "key": "T",
+      "label_en": "Outer Plate Thickness",
+      "label_cn": "外链板厚度",
+      "unit": "mm"
+    },
+    {
+      "key": "Fu",
+      "label_en": "Tensile Strength",
+      "label_cn": "抗拉强度",
+      "unit": "kN"
+    },
+    {
+      "key": "q",
+      "label_en": "Weight",
+      "label_cn": "重量",
+      "unit": "kg/m"
+    }
+  ],
+  "products": [
+    {
+      "id": "SM-001",
+      "chain_no": "904",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 101.6,
+        "b1": 29.3,
+        "R": 50.8,
+        "d": 17.46,
+        "L1": 31.1,
+        "L2": 47.4,
+        "h": 44.5,
+        "t": 8,
+        "T": 8,
+        "Fu": 178.4,
+        "q": 13.16
+      }
+    },
+    {
+      "id": "SM-002",
+      "chain_no": "9060",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.7,
+        "R": 69.85,
+        "d": 18.9,
+        "L1": 45.2,
+        "L2": 49.1,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 250,
+        "q": 17.2
+      }
+    },
+    {
+      "id": "SM-003",
+      "chain_no": "9060",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.7,
+        "R": 76.2,
+        "d": 18.9,
+        "L1": 45.2,
+        "L2": 49.1,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 250,
+        "q": 18.36
+      }
+    },
+    {
+      "id": "SM-004",
+      "chain_no": "9061",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.7,
+        "R": 69.85,
+        "d": 18.9,
+        "L1": 44.9,
+        "L2": 50.3,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 377.9,
+        "q": 18.74
+      }
+    },
+    {
+      "id": "SM-005",
+      "chain_no": "1796",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.8,
+        "R": 69.85,
+        "d": 22.23,
+        "L1": 44.2,
+        "L2": 52.9,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 444.5,
+        "q": 18.5
+      }
+    },
+    {
+      "id": "SM-006",
+      "chain_no": "1796",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.8,
+        "R": 76.2,
+        "d": 22.23,
+        "L1": 44.2,
+        "L2": 52.9,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 444.5,
+        "q": 19.5
+      }
+    },
+    {
+      "id": "SM-007",
+      "chain_no": "1796",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.8,
+        "R": 73,
+        "d": 22.23,
+        "L1": 44.2,
+        "L2": 52.9,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 444.5,
+        "q": 19.2
+      }
+    },
+    {
+      "id": "SM-008",
+      "chain_no": "9063",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38,
+        "R": 76.2,
+        "d": 23.83,
+        "L1": 47.4,
+        "L2": 54.6,
+        "h": 60.3,
+        "t": 10.3,
+        "T": 10.3,
+        "Fu": 622.3,
+        "q": 21.88
+      }
+    },
+    {
+      "id": "SM-009",
+      "chain_no": "C09063",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38,
+        "R": 76.2,
+        "d": 23.83,
+        "L1": 47.4,
+        "L2": 54.6,
+        "h": 61.9,
+        "t": 10.3,
+        "T": 10.3,
+        "Fu": 635,
+        "q": 22.2
+      }
+    },
+    {
+      "id": "SM-010",
+      "chain_no": "C09063H",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38,
+        "R": 76.2,
+        "d": 23.8,
+        "L1": 46.7,
+        "L2": 56.3,
+        "h": 63.5,
+        "t": 10.3,
+        "T": 10.3,
+        "Fu": 600,
+        "q": 23.67
+      }
+    },
+    {
+      "id": "SM-011",
+      "chain_no": "SS996",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 69.85,
+        "d": 19.05,
+        "L1": 46.83,
+        "L2": 51.6,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 311,
+        "q": 17.55
+      }
+    },
+    {
+      "id": "SM-012",
+      "chain_no": "DN2184",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 34.9,
+        "R": 76.2,
+        "d": 22.35,
+        "L1": 43.9,
+        "L2": 51.2,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 355.6,
+        "q": 18.3
+      }
+    },
+    {
+      "id": "SM-013",
+      "chain_no": "SS960",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 69.85,
+        "d": 21.84,
+        "L1": 51.6,
+        "L2": 61.1,
+        "h": 57.2,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 333.3,
+        "q": 31.24
+      }
+    },
+    {
+      "id": "SM-014",
+      "chain_no": "EC1131",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 76.2,
+        "d": 18.9,
+        "L1": 44.8,
+        "L2": 52.15,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 355.6,
+        "q": 20.01
+      }
+    },
+    {
+      "id": "SM-015",
+      "chain_no": "C09065",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 76.2,
+        "d": 26.99,
+        "L1": 38.5,
+        "L2": 43.2,
+        "h": 60.3,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 124.46,
+        "q": 25.32
+      }
+    },
+    {
+      "id": "SM-016",
+      "chain_no": "SS2315",
+      "design_id": "sugar_straight_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 228.6,
+        "b1": 43,
+        "R": 76.2,
+        "d": 22,
+        "L1": 49,
+        "L2": 58,
+        "h": 63.5,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 274,
+        "q": 27.23
+      }
+    },
+    {
+      "id": "SM-017",
+      "chain_no": "996",
+      "design_id": "sugar_straight_002",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.7,
+        "R": 69.85,
+        "d": 18.9,
+        "L1": 44.9,
+        "L2": 49.4,
+        "h": 54,
+        "t": 10,
+        "T": 10,
+        "Fu": 311,
+        "q": 18.7
+      }
+    },
+    {
+      "id": "SM-018",
+      "chain_no": "W09060",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.2,
+        "R": 69.9,
+        "d": 18.9,
+        "L1": 45,
+        "L2": 53,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 303.8,
+        "q": 17.5
+      }
+    },
+    {
+      "id": "SM-019",
+      "chain_no": "W09063",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 38,
+        "R": 76.2,
+        "d": 23.83,
+        "L1": 47.1,
+        "L2": 54.9,
+        "h": 60.3,
+        "t": 10.3,
+        "T": 10.3,
+        "Fu": 622.3,
+        "q": 21.83
+      }
+    },
+    {
+      "id": "SM-020",
+      "chain_no": "W1796",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.8,
+        "R": 69.85,
+        "d": 22.23,
+        "L1": 44.2,
+        "L2": 52.9,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 444.5,
+        "q": 18.59
+      }
+    },
+    {
+      "id": "SM-021",
+      "chain_no": "W1796",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 37.8,
+        "R": 76.2,
+        "d": 22.23,
+        "L1": 44.2,
+        "L2": 52.9,
+        "h": 57.2,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 444.5,
+        "q": 21.3
+      }
+    },
+    {
+      "id": "SM-022",
+      "chain_no": "D2184",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 34.9,
+        "R": 76.2,
+        "d": 22.23,
+        "L1": 43.9,
+        "L2": 51.2,
+        "h": 50.8,
+        "t": 9.5,
+        "T": 9.5,
+        "Fu": 355.6,
+        "q": 17.7
+      }
+    },
+    {
+      "id": "SM-023",
+      "chain_no": "PB2184",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 152.4,
+        "b1": 36,
+        "R": 76.2,
+        "d": 22.23,
+        "L1": 45.4,
+        "L2": 52.8,
+        "h": 52,
+        "t": 10,
+        "T": 10,
+        "Fu": 396,
+        "q": 19.31
+      }
+    },
+    {
+      "id": "SM-024",
+      "chain_no": "SS800",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 203.2,
+        "b1": 46.1,
+        "R": 88.9,
+        "d": 25.4,
+        "L1": 59.9,
+        "L2": 69.1,
+        "h": 75,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 750,
+        "q": 30.58
+      }
+    },
+    {
+      "id": "SM-025",
+      "chain_no": "8184",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 203.2,
+        "b1": 45.9,
+        "R": 88.9,
+        "d": 25.4,
+        "L1": 59.7,
+        "L2": 65.8,
+        "h": 69.9,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 742.4,
+        "q": 29.2
+      }
+    },
+    {
+      "id": "SM-026",
+      "chain_no": "2284",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 228.6,
+        "b1": 36.9,
+        "R": 90,
+        "d": 25.4,
+        "L1": 45.4,
+        "L2": 53,
+        "h": 65,
+        "t": 10,
+        "T": 10,
+        "Fu": 420,
+        "q": 21.88
+      }
+    },
+    {
+      "id": "SM-027",
+      "chain_no": "2284H",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 228.6,
+        "b1": 36.9,
+        "R": 90,
+        "d": 25.4,
+        "L1": 49.5,
+        "L2": 57.2,
+        "h": 65,
+        "t": 12,
+        "T": 12,
+        "Fu": 510,
+        "q": 24.7
+      }
+    },
+    {
+      "id": "SM-028",
+      "chain_no": "22840",
+      "design_id": "sugar_cranked_001",
+      "pin_type": "Cotter/Solid",
+      "material": "Carbon/Martensite SS",
+      "specs": {
+        "P": 228.6,
+        "b1": 46,
+        "R": 99,
+        "d": 32,
+        "L1": 62.7,
+        "L2": 72.7,
+        "h": 86,
+        "t": 15,
+        "T": 15,
+        "Fu": 884,
+        "q": 40.21
+      }
+    },
+    {
+      "id": "SM-029",
+      "chain_no": "C2614",
+      "design_id": "sugar_cranked_002",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 304.8,
+        "b1": 69.85,
+        "R": 63.5,
+        "d": 31.75,
+        "L1": 78.5,
+        "L2": 84.5,
+        "h": 88.9,
+        "t": 15.9,
+        "T": 15.9,
+        "Fu": 1000,
+        "q": 33.68
+      }
+    },
+    {
+      "id": "SM-030",
+      "chain_no": "C2648",
+      "design_id": "sugar_cranked_003",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 304.8,
+        "b1": 92.1,
+        "R": 82.55,
+        "d": 40.89,
+        "L1": 98,
+        "L2": 104.5,
+        "h": 88.9,
+        "t": 19.05,
+        "T": 19.05,
+        "Fu": 1350,
+        "q": 105.6
+      }
+    },
+    {
+      "id": "SM-031",
+      "chain_no": "HR30054S",
+      "design_id": "sugar_sideroller_001",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 300,
+        "b1": 77,
+        "R": 57.15,
+        "d": 28,
+        "L1": 81.7,
+        "L2": 89,
+        "h": 76.2,
+        "t": 16,
+        "T": 16,
+        "Fu": 670
+      }
+    },
+    {
+      "id": "SM-032",
+      "chain_no": "HR30055S",
+      "design_id": "sugar_sideroller_001",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 300,
+        "b1": 77,
+        "R": 57.15,
+        "d": 28,
+        "L1": 81.7,
+        "L2": 89,
+        "h": 76.2,
+        "t": 16,
+        "T": 16,
+        "Fu": 670
+      }
+    },
+    {
+      "id": "SM-033",
+      "chain_no": "WH-132-ES",
+      "design_id": "sugar_canecarrier_001",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 153.7,
+        "b1": 50.6,
+        "R": 49,
+        "d": 25.4,
+        "L1": 59.5,
+        "L2": 67.5,
+        "h": 69.85,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 267
+      }
+    },
+    {
+      "id": "SM-034",
+      "chain_no": "WH-132-ES-80",
+      "design_id": "sugar_canecarrier_001",
+      "pin_type": "Cotter/Solid",
+      "material": "",
+      "specs": {
+        "P": 153.7,
+        "b1": 50.6,
+        "R": 49,
+        "d": 30,
+        "L1": 59.5,
+        "L2": 67.5,
+        "h": 80,
+        "t": 12.7,
+        "T": 12.7,
+        "Fu": 355
+      }
+    },
+    {
+      "id": "SM-035",
+      "chain_no": "B5283",
+      "design_id": "sugar_canecarrier_002",
+      "pin_type": "Solid",
+      "material": "",
+      "specs": {
+        "P": 153.2,
+        "d": 28.5,
+        "L1": 40.5,
+        "L2": 49.3,
+        "h": 68.3,
+        "t": 12.7,
+        "T": 39,
+        "Fu": 570
+      }
+    }
+  ]
+}

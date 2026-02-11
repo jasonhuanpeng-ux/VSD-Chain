@@ -1,30 +1,12 @@
- [
+[
   {
-    "id": "cat_01",
-    "slug": "palm-oil-chain",
-    "name": "Palm Oil Chain",
-    "image": "/images/categories/palm-oil-chain-sample.png",
-    "summary": "Specialized for palm oil processing mills."
-  },
-  {
-    "id": "cat_02",
-    "slug": "welded-chain",
-    "name": "Welded Chain",
-    "image": "/images/categories/welded-steel-chain-sample.jpg",
-    "summary": "Durable welded steel chains for heavy-duty apps."
-  },
-  {
-    "id": "cat_03",
-    "slug": "sugar-mill-chain",
-    "name": "Sugar Mill Chain",
+    "id": "sugar-mill",
+    "slug": "sugar-mill",
+    "name_en": "Sugar Mill Chain",
+    "name_cn": "制糖机链条",
     "image": "/images/categories/sugar-mill-chain-sample.png",
-    "summary": "High strength chains for sugar production lines."
-  },
-  {
-    "id": "cat_04",
-    "slug": "drop-forged-rivetless-chain",
-    "name": "Drop Forged Rivetless Chain",
-    "image": "/images/categories/drop-forged-rivetless-chain-sample.jpg",
-    "summary": "Easy assembly/disassembly for conveyor systems."
+    "summary": "High strength chains for sugar production lines",
+    "sort_order": 1,
+    "is_active": true
   }
 ]
