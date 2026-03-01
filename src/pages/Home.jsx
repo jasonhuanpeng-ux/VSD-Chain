@@ -54,7 +54,7 @@ const Home = () => {
                 <div className="aspect-[4/3] bg-gray-100 overflow-hidden relative">
                   <img 
                     src={cat.image} 
-                    alt={cat.name} 
+                    alt={cat.name_en} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out mix-blend-multiply"
                     // 如果图片路径错误，自动显示占位图
                     onError={(e) => { e.target.src = "https://placehold.co/600x400?text=" + cat.name; }}
@@ -65,7 +65,7 @@ const Home = () => {
 
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                    {cat.name}
+                    {cat.name_en}
                   </h3>
                   <p className="text-sm text-gray-500 leading-relaxed line-clamp-2">
                     {cat.summary}

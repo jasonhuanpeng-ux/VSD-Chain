@@ -5,7 +5,7 @@
     "slug": "palm-oil-processing",
     "name": "Palm Oil Processing",
     "summary": "Heavy-duty chains designed for the demanding environments of palm oil extraction and milling.",
-    "relatedCategorySlugs": ["palm-oil-chain"]
+    "relatedCategorySlugs": ["palm-oil"]
   },
   {
     "id": "app_02",
@@ -13,7 +13,7 @@
     "slug": "sugar-mill",   
     "name": "Sugar Mill",
     "summary": "Reliable conveying solutions for sugar cane carriers and processing equipment.",
-    "relatedCategorySlugs": ["sugar-mill-chain"]
+    "relatedCategorySlugs": ["sugar-mill"]
   },
   {
     "id": "app_03",
@@ -29,7 +29,7 @@
     "slug": "agriculture-machinery",
     "name": "Agriculture Machinery",
     "summary": "Durable driving and conveyor chains for harvesting and planting equipment.",
-    "relatedCategorySlugs": ["welded-chain"]
+    "relatedCategorySlugs": ["welded-chain", "palm-oil", "sugar-mill"]
   },
   {
     "id": "app_05",
@@ -37,7 +37,7 @@
     "slug": "mining-heavy-duty",
     "name": "Mining / Heavy Duty",
     "summary": "High-strength forged chains for the most extreme loading conditions in mining.",
-    "relatedCategorySlugs": ["drop-forged-rivetless-chain"]
+    "relatedCategorySlugs": ["welded-chain"]
   },
   {
     "id": "app_06",
@@ -45,6 +45,6 @@
     "slug": "general-industrial",
     "name": "General Industrial",
     "summary": "Standardized chain solutions for diverse industrial transmission needs.",
-    "relatedCategorySlugs": ["welded-chain", "palm-oil-chain"]
+    "relatedCategorySlugs": ["welded-chain"]
   }
 ]

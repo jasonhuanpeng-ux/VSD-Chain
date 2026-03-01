@@ -27,6 +27,13 @@ const Products = () => {
               key={cat.id}
               className="group bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-blue-100 transition-all duration-500 flex flex-col md:flex-row"
             >
+              {/* 产品类别标题 - 在图片上方 */}
+              <div className="md:hidden px-6 pt-4 pb-2">
+                <h3 className="text-xl font-black text-gray-900">
+                  {cat.name_en}
+                </h3>
+              </div>
+
               {/* 左侧/上方图片区 */}
               <div className="md:w-2/5 aspect-[4/3] md:aspect-auto bg-gray-100 overflow-hidden">
                 <img 
@@ -39,8 +46,8 @@ const Products = () => {
 
               {/* 右侧/下方文字区 */}
               <div className="p-8 md:w-3/5 flex flex-col justify-center">
-                <h3 className="text-2xl font-black text-gray-900 group-hover:text-blue-600 transition-colors mb-4">
-                  {cat.name}
+                <h3 className="hidden md:block text-2xl font-black text-gray-900 group-hover:text-blue-600 transition-colors mb-4">
+                  {cat.name_en}
                 </h3>
                 <p className="text-gray-500 leading-relaxed mb-8">
                   {cat.summary}
