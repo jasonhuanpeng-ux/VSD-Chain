@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // 导入全局组件
 import Navbar from './components/Navbar';
+import CartPanel from './components/CartPanel';
 
 // 导入所有页面组件
 import Home from './pages/Home';
@@ -23,6 +24,9 @@ function App() {
       <div className="min-h-screen bg-gray-50 flex flex-col">
         {/* 1. 全局导航栏：在所有页面顶部显示 */}
         <Navbar />
+
+        {/* 购物车浮动面板 */}
+        <CartPanel />
 
         {/* 2. 动态内容区：根据浏览器地址栏 (URL) 切换显示不同的组件 */}
         <main className="flex-grow">

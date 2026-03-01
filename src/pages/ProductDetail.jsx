@@ -1,12 +1,14 @@
-import React from 'react';
+import { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useProductDetail } from '../hooks/useProductData';
 import AttachmentCard from '../components/AttachmentCard';
-import { useState } from 'react';
+import { useCart } from '../hooks/useCart';
 
 const ProductDetail = () => {
   const { categorySlug, productId } = useParams();
   const navigate = useNavigate();
+  const { addToCart } = useCart();
+  const [addedToCart, setAddedToCart] = useState(false);
   const { 
     product, 
     design, 
@@ -17,7 +19,21 @@ const ProductDetail = () => {
     error 
   } = useProductDetail(categorySlug, productId);
 
-  // Loading 状态
+  const handleAddToCart = () => {
+    addToCart({
+      id: product.id,
+      chain_no: product.chain_no,
+      categorySlug: categorySlug,
+      categoryName: categoryInfo?.name_en,
+      material: product.material,
+      specs: product.specs,
+      quantity: 1,
+    });
+    setAddedToCart(true);
+    setTimeout(() => setAddedToCart(false), 2000);
+  };
+
+
   if (loading) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-24 text-center">
@@ -27,7 +43,6 @@ const ProductDetail = () => {
     );
   }
 
-  // 找不到产品
   if (error || !product) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-24 text-center">
@@ -47,7 +62,6 @@ const ProductDetail = () => {
 
   return (
     <div className="min-h-screen bg-white pb-20">
-      {/* 顶部导航与面包屑 */}
       <div className="bg-gray-50 border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 text-sm flex items-center justify-between">
           <div>
@@ -70,14 +84,14 @@ const ProductDetail = () => {
 
       <div className="max-w-7xl mx-auto px-4 pt-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-          
-          {/* 左侧：图纸展示区 */}
+
           <div className="space-y-6">
             <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm flex items-center justify-center min-h-[400px]">
               <img 
                 src={design?.drawing} 
                 alt={product.chain_no} 
                 className="max-h-[500px] object-contain"
+                loading="lazy"
                 onError={(e) => { e.target.src = "https://placehold.co/800x600?text=Drawing+Coming+Soon"; }}
               />
             </div>
@@ -86,7 +100,6 @@ const ProductDetail = () => {
             )}
           </div>
 
-          {/* 右侧：详细参数与询盘入口 */}
           <div className="flex flex-col">
             <div className="mb-8">
               <span className="text-blue-600 font-bold tracking-widest text-sm uppercase">
@@ -100,7 +113,6 @@ const ProductDetail = () => {
               </p>
             </div>
 
-            {/* 核心参数卡片 */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               {product.specs.P && (
                 <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
@@ -128,25 +140,44 @@ const ProductDetail = () => {
               )}
             </div>
 
-            {/* 额外信息 */}
             {product.pin_type && (
               <div className="mb-6 text-gray-600">
                 <span className="font-medium">Pin Type:</span> {product.pin_type}
               </div>
             )}
 
-            {/* 询盘按钮 */}
-            <button 
-              onClick={() => navigate(`/inquiry?product=${product.id}&category=${categorySlug}`)}
-              className="w-full bg-blue-600 text-white text-xl font-bold py-5 rounded-2xl hover:bg-blue-700 shadow-xl shadow-blue-100 transition-all flex items-center justify-center gap-3"
-            >
-              Get Professional Quote
-              <span className="text-2xl">→</span>
-            </button>
+            <div className="space-y-3 mb-8">
+              <button 
+                onClick={handleAddToCart}
+                className={`w-full text-white text-xl font-black py-4 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2 ${
+                  addedToCart 
+                    ? 'bg-green-600 hover:bg-green-700' 
+                    : 'bg-orange-600 hover:bg-orange-700'
+                }`}
+              >
+                {addedToCart ? (
+                  <>
+                    <span className="text-2xl">✓</span>
+                    Added to Inquiry Cart
+                  </>
+                ) : (
+                  <>
+                    <span className="text-2xl">+</span>
+                    Add to Inquiry Cart
+                  </>
+                )}
+              </button>
+              
+              <button 
+                onClick={() => navigate(`/inquiry?product=${product.id}&category=${categorySlug}`)}
+                className="w-full bg-blue-600 text-white text-lg font-bold py-4 rounded-xl hover:bg-blue-700 transition-all shadow-lg flex items-center justify-center gap-2"
+              >
+                Get Professional Quote
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* 底部详细规格表 */}
         <div className="mt-20">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 border-b pb-4">Full Technical Specifications</h3>
           <div className="overflow-x-auto">
@@ -171,7 +202,6 @@ const ProductDetail = () => {
           </div>
         </div>
 
-        {/* 附件区域（可折叠子列表） */}
         <div className="mt-20">
           <AttachmentSection attachments={attachments} product={product} categorySlug={categorySlug} />
         </div>
@@ -182,11 +212,9 @@ const ProductDetail = () => {
 
 export default ProductDetail;
 
-// Small helper: toggle button and panel components
 function AttachmentSection({ attachments, product, categorySlug }) {
   const [open, setOpen] = useState(true);
 
-  // group attachments by their number to avoid repeat cards
   const grouped = (() => {
     const map = new Map();
     attachments.forEach(att => {

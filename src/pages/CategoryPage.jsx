@@ -3,10 +3,12 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useCategoryData } from '../hooks/useProductData';
 import categoriesData from '../data/categories.json';
 import AttachmentCard from '../components/AttachmentCard';
+import { useCart } from '../hooks/useCart';
 
 const CategoryPage = () => {
   const navigate = useNavigate();
   const { categorySlug } = useParams();
+  const { addToCart } = useCart();
   const { data, loading, error } = useCategoryData(categorySlug);
   
   const [selectedDesign, setSelectedDesign] = useState(null);
@@ -51,6 +53,7 @@ const CategoryPage = () => {
   }
 
   const { index: categoryInfo, chains } = data;
+  const categoryDisplayName = categoryInfo?.name_en || categoryBasic?.name_en || categorySlug;
   const allProducts = chains.products;
   const designs = categoryInfo.chain_designs;
 
@@ -58,7 +61,7 @@ const CategoryPage = () => {
   const filteredProducts = allProducts.filter(product => {
     const matchesDesign = !selectedDesign || product.design_id === selectedDesign;
     const matchesSearch = !searchTerm || 
-      product.chain_no.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      product.chain_no?.toLowerCase().includes(searchTerm.toLowerCase()) ||
       product.material?.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesDesign && matchesSearch;
   });
@@ -210,12 +213,30 @@ const CategoryPage = () => {
                       {product.material || '-'}
                     </td>
                     <td className="px-4 py-3 text-center">
-                      <Link
-                        to={`/product/${categorySlug}/${product.id}`}
-                        className="inline-flex items-center px-3 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 transition"
-                      >
-                        Details →
-                      </Link>
+                      <div className="flex gap-2 justify-center">
+                        <button
+                          onClick={() => {
+                            addToCart({
+                              id: product.id,
+                              chain_no: product.chain_no,
+                              categorySlug: categorySlug,
+                              categoryName: categoryDisplayName,
+                              material: product.material,
+                              specs: product.specs,
+                              quantity: 1,
+                            });
+                          }}
+                          className="inline-flex items-center px-3 py-1.5 bg-orange-500 text-white text-xs font-medium rounded-lg hover:bg-orange-600 transition"
+                        >
+                          + Add
+                        </button>
+                        <Link
+                          to={`/product/${categorySlug}/${product.id}`}
+                          className="inline-flex items-center px-3 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 transition"
+                        >
+                          Details →
+                        </Link>
+                      </div>
                     </td>
                   </tr>
                 ))}
