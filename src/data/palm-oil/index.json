@@ -1,0 +1,40 @@
+{
+  "id": "palm-oil",
+  "name_en": "Palm Oil",
+  "name_cn": "棕榈油链条",
+  "description_en": "",
+  "description_cn": "",
+  "hero_image": "/images/categories/palm-oil-chain-sample.png",
+  "chain_designs": [
+    {
+      "design_id": "palm_straight_001",
+      "design_name_en": "Palm Oil Chain with Straight Plate Type 1",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/palm-oil/chains/palm_straight_001.png"
+    },
+    {
+      "design_id": "palm_straight_002",
+      "design_name_en": "Palm Oil Chain with Straight Plate Type 2",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/palm-oil/chains/palm_straight_002.png"
+    },
+    {
+      "design_id": "palm_straight_003",
+      "design_name_en": "Palm Oil Chain with Straight Plate Type 3",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/palm-oil/chains/palm_straight_003.png"
+    },
+    {
+      "design_id": "palm_straight_004",
+      "design_name_en": "Palm Oil Chain with Straight Plate Type 4",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/palm-oil/chains/palm_straight_004.png"
+    },
+    {
+      "design_id": "palm_hollowpin_001",
+      "design_name_en": "Palm Oil Chain with Hollow Pin",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/palm-oil/chains/palm_hollowpin_001.png"
+    }
+  ]
+}

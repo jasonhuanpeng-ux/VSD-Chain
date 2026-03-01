@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useCategoryData } from '../hooks/useProductData';
 import categoriesData from '../data/categories.json';
+import AttachmentCard from '../components/AttachmentCard';
 
 const CategoryPage = () => {
   const navigate = useNavigate();
@@ -67,6 +68,11 @@ const CategoryPage = () => {
     ? designs.find(d => d.design_id === selectedDesign) 
     : null;
 
+  // 计算哪些spec列有实际数据（不全是空值）
+  const columnsWithData = chains.spec_columns.filter(col => 
+    filteredProducts.some(product => product.specs[col.key] !== undefined)
+  ).slice(0, 6);
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       {/* 面包屑导航与返回按钮 */}
@@ -86,9 +92,7 @@ const CategoryPage = () => {
       {/* 品类头部 */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900">{categoryInfo.name_en}</h1>
-        {categoryInfo.name_cn && (
-          <p className="text-xl text-gray-500 mt-1">{categoryInfo.name_cn}</p>
-        )}
+        {/* Chinese name removed per request */}
         <p className="text-gray-600 mt-4 max-w-3xl">
           {categoryInfo.description_en || `Explore our range of ${categoryInfo.name_en} with detailed specifications.`}
         </p>
@@ -102,6 +106,7 @@ const CategoryPage = () => {
             {allProducts.length} Products
           </span>
         </div>
+
       </div>
 
       {/* 设计类型选择器 */}
@@ -150,9 +155,7 @@ const CategoryPage = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-900">{selectedDesignInfo.design_name_en}</h3>
-            {selectedDesignInfo.design_name_cn && (
-              <p className="text-gray-500">{selectedDesignInfo.design_name_cn}</p>
-            )}
+            {/* Chinese design name hidden */}
             <p className="text-sm text-gray-400 mt-2">{filteredProducts.length} models available</p>
           </div>
         </div>
@@ -177,7 +180,7 @@ const CategoryPage = () => {
               <thead className="bg-gray-50 border-b">
                 <tr>
                   <th className="px-4 py-3 text-left font-semibold text-gray-700">Chain No.</th>
-                  {chains.spec_columns.slice(0, 6).map(col => (
+                  {columnsWithData.map(col => (
                     <th key={col.key} className="px-3 py-3 text-left font-semibold text-gray-700">
                       <div>{col.label_en}</div>
                       <div className="text-xs text-gray-400 font-normal">({col.unit})</div>
@@ -198,7 +201,7 @@ const CategoryPage = () => {
                         {product.chain_no}
                       </Link>
                     </td>
-                    {chains.spec_columns.slice(0, 6).map(col => (
+                    {columnsWithData.map(col => (
                       <td key={col.key} className="px-3 py-3 text-gray-600">
                         {product.specs[col.key] !== undefined ? product.specs[col.key] : '-'}
                       </td>
@@ -225,6 +228,27 @@ const CategoryPage = () => {
           No products found matching your criteria.
         </div>
       )}
+
+      {/* 附件区域（根据附件编号去重） */}
+      {data.attachments && data.attachments.attachments && data.attachments.attachments.length > 0 && (() => {
+        const seen = new Map();
+        data.attachments.attachments.forEach(att => {
+          if (!seen.has(att.attachment_number)) {
+            seen.set(att.attachment_number, att);
+          }
+        });
+        const grouped = Array.from(seen.values());
+        return (
+          <div className="mt-12">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">Attachments</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {grouped.map(att => (
+                <AttachmentCard key={att.attachment_number} attachment={att} chains={allProducts} categoryId={data.attachments.category_id} />
+              ))}
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 };

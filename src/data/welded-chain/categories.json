@@ -1,0 +1,12 @@
+[
+  {
+    "id": "welded-chain",
+    "slug": "welded-chain",
+    "name_en": "Welded Chain",
+    "name_cn": "焊接链条",
+    "image": "/images/categories/welded-chain.jpg",
+    "summary": "",
+    "sort_order": 1,
+    "is_active": true
+  }
+]

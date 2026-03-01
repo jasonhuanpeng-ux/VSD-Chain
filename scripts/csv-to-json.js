@@ -10,6 +10,16 @@ const CONFIG = {
   // 输出目录
   outputDir: './src/data/sugar-mill',
 };
+
+// allow overriding via command line arguments for quick conversions
+// usage: node scripts/csv-to-json.js <chainsCSV> <attachmentsCSV> <outputDir>
+const CLI_ARGS = process.argv.slice(2);
+if (CLI_ARGS.length >= 3) {
+  CONFIG.chainsCSV = CLI_ARGS[0];
+  CONFIG.attachmentsCSV = CLI_ARGS[1];
+  CONFIG.outputDir = CLI_ARGS[2];
+}
+
 // ========== 列名映射 (你的CSV列名 → JSON key) ==========
 const CHAIN_COLUMN_MAP = {
   'Product ID': 'id',
@@ -17,19 +27,30 @@ const CHAIN_COLUMN_MAP = {
   'Chain Design': 'chain_design',
   'DrawingID': 'drawing_id',
   'Chain No.': 'chain_no',
+  // common spec variants
   'P (Pitch)': 'P',
+  'Pitch (P) mm': 'P',
   'b1 (Inner Width)': 'b1',
+  'b1 (min) mm': 'b1',
   'R (Roller Dia)': 'R',
+  'Bush Dia D (max) mm': 'R',
   'd (Pin Dia)': 'd',
+  'Pin Dia d mm': 'd',
   'id (hollow pin inner dia)': 'id_hollow',
   'L1': 'L1',
+  'L1 mm': 'L1',
   'L2': 'L2',
+  'L2 mm': 'L2',
   'Pin Type': 'pin_type',
   'h (Plate Height)': 'h',
+  'Sidebar Height h mm': 'h',
   't (Inner)': 't',
   'T (Outer)': 'T',
+  'Sidebar Thickness T mm': 'T',
   'Fu (Strength)': 'Fu',
+  'Ultimate Strength Fu (kN)': 'Fu',
   'q (Weight)': 'q',
+  'Weight (kg/m)': 'q',
   'Note/material': 'material'
 };
 
@@ -80,6 +101,9 @@ async function main() {
     const category = normalizeCategory(row['Category']);
     if (!category) return;
 
+    // determine folder name on disk; drop trailing "-chain" if present
+    const folderName = category.endsWith('-chain') ? category.replace(/-chain$/, '') : category;
+
     // 初始化分类
     if (!categoriesMap[category]) {
       categoriesMap[category] = {
@@ -90,22 +114,26 @@ async function main() {
     }
 
     // 提取 Design 信息
-    const designId = row['DrawingID'] || 'unknown';
-    const designName = row['Chain Design'] || '';
+    // CSVs vary; try multiple possible column keys
+    const designId = row['DrawingID'] || row['Drawing ID'] || row['drawing_id'] || 'unknown';
+    const designName = row['Chain Design'] || row['Chain Series'] || row['Chain Type'] || '';
 
     if (designId && !categoriesMap[category].designs[designId]) {
       categoriesMap[category].designs[designId] = {
         design_id: designId,
         design_name_en: designName,
         design_name_cn: '',
-        drawing: `/images/drawings/${category}/${designId}.png`
+        drawing: `/images/drawings/${folderName}/chains/${designId}.png`
       };
     }
 
     // 提取产品信息
     const specs = {};
     SPEC_FIELDS.forEach(field => {
-      const csvKey = Object.keys(CHAIN_COLUMN_MAP).find(k => CHAIN_COLUMN_MAP[k] === field);
+      // prefer a mapping key that actually exists in this row
+      const csvKey = Object.keys(CHAIN_COLUMN_MAP).find(
+        k => CHAIN_COLUMN_MAP[k] === field && Object.prototype.hasOwnProperty.call(row, k)
+      );
       if (csvKey && row[csvKey] !== undefined && row[csvKey] !== '' && row[csvKey] !== '-') {
         const value = parseFloat(row[csvKey]);
         if (!isNaN(value)) {
@@ -142,6 +170,9 @@ async function main() {
       }
     }
 
+    // compute folder name same as above
+    const folderName = category.endsWith('-chain') ? category.replace(/-chain$/, '') : category;
+
     const attachmentNumber = row['Attachment_number'] || '';
     
     categoriesMap[category].attachments.push({
@@ -149,8 +180,8 @@ async function main() {
       parent_chain_no: row['Parent_Chain_Number'] || '',
       attachment_type: extractAttachmentType(attachmentNumber),
       attachment_number: attachmentNumber,
-      drawing: `/images/drawings/${category}/attachments/${row['Drawing_number'] || ''}.png`,
-      spec_sheet: `/images/drawings/${category}/attachments/${row['Spec_Number'] || ''}.png`,
+      drawing: `/images/drawings/${folderName}/attachments/${row['Drawing_number'] || ''}.png`,
+      spec_sheet: `/images/drawings/${folderName}/attachments/${row['Spec_Number'] || ''}.png`,
       note: row['Note'] || ''
     });
   });
@@ -226,19 +257,24 @@ async function main() {
     console.log(`   🔧 ${data.attachments.length} 个附件\n`);
   }
 
-  // 5. 生成 categories.json
+  // 5. 生成 categories.json（仅在处理多个类别时）
   // 确保输出目录存在
   if (!fs.existsSync(CONFIG.outputDir)) {
     fs.mkdirSync(CONFIG.outputDir, { recursive: true });
   }
 
-  fs.writeFileSync(
-    path.join(CONFIG.outputDir, 'categories.json'),
-    JSON.stringify(categories, null, 2),
-    'utf8'
-  );
+  if (categories.length > 1) {
+    fs.writeFileSync(
+      path.join(CONFIG.outputDir, 'categories.json'),
+      JSON.stringify(categories, null, 2),
+      'utf8'
+    );
+    console.log('✅ categories.json\n');
+  } else {
+    // 如果只是单个类别，就不写那个文件，避免混淆
+    console.log('⚠️ 仅生成一个类别，跳过 categories.json');
+  }
 
-  console.log('✅ categories.json\n');
   console.log('🎉 转换完成！');
   console.log(`\n📁 输出目录: ${CONFIG.outputDir}`);
 }

@@ -1,0 +1,22 @@
+{
+  "id": "cement-industry",
+  "name_en": "Cement Industry",
+  "name_cn": "水泥行业",
+  "description_en": "Bucket elevator chains and attachments for cement plants (K44, K443)",
+  "description_cn": "水泥工厂提升机链条与附件（K44、K443）",
+  "hero_image": "/images/categories/cement-industry-chain-sample.png",
+  "chain_designs": [
+    {
+      "design_id": "cement_k44",
+      "design_name_en": "K44 Attachment Chain",
+      "design_name_cn": "K44 附件链",
+      "drawing": "/images/drawings/cement-industry/chains/k44.png"
+    },
+    {
+      "design_id": "cement_k443",
+      "design_name_en": "K443 Attachment Chain",
+      "design_name_cn": "K443 附件链",
+      "drawing": "/images/drawings/cement-industry/chains/k443.png"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const Products = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* 2. 品类大卡片网格 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {categoriesData.map((cat) => (
+          {categoriesData.filter(cat => cat.is_active !== false).map((cat) => (
             <Link 
               to={`/products/${cat.slug}`} 
               key={cat.id}

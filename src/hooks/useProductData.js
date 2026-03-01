@@ -6,6 +6,17 @@ import sugarMillIndex from '../data/sugar-mill/index.json' assert { type: 'json'
 import sugarMillChains from '../data/sugar-mill/chains.json' assert { type: 'json' };
 import sugarMillAttachments from '../data/sugar-mill/attachments.json' assert { type: 'json' };
 
+import palmOilIndex from '../data/palm-oil/index.json' assert { type: 'json' };
+import palmOilChains from '../data/palm-oil/chains.json' assert { type: 'json' };
+import palmOilAttachments from '../data/palm-oil/attachments.json' assert { type: 'json' };
+import cementIndex from '../data/cement-industry/index.json' assert { type: 'json' };
+import cementChains from '../data/cement-industry/chains.json' assert { type: 'json' };
+import cementAttachments from '../data/cement-industry/attachments.json' assert { type: 'json' };
+
+import weldedIndex from '../data/welded-chain/index.json' assert { type: 'json' };
+import weldedChains from '../data/welded-chain/chains.json' assert { type: 'json' };
+import weldedAttachments from '../data/welded-chain/attachments.json' assert { type: 'json' };
+
 // 为每个类别创建配置
 const categoryModules = {
   'sugar-mill': {
@@ -13,12 +24,26 @@ const categoryModules = {
     chains: sugarMillChains,
     attachments: sugarMillAttachments,
   },
-  // 后续添加其他类别...
+  'palm-oil': {
+    index: palmOilIndex,
+    chains: palmOilChains,
+    attachments: palmOilAttachments,
+  },
+  'cement-industry': {
+    index: cementIndex,
+    chains: cementChains,
+    attachments: cementAttachments,
+  },
+  'welded-chain': {
+    index: weldedIndex,
+    chains: weldedChains,
+    attachments: weldedAttachments,
+  },
 };
 
 // 获取所有类别
 export function useCategories() {
-  return categoriesData;
+  return categoriesData.filter(cat => cat.is_active !== false);
 }
 
 // 获取单个类别的完整数据

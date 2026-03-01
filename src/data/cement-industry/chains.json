@@ -1,0 +1,56 @@
+{
+  "category_id": "cement-industry",
+  "spec_columns": [
+    { "key": "E1", "label_en": "E1", "label_cn": "E1", "unit": "mm" },
+    { "key": "E", "label_en": "E", "label_cn": "E", "unit": "mm" },
+    { "key": "W1", "label_en": "W1", "label_cn": "W1", "unit": "mm" },
+    { "key": "W2", "label_en": "W2", "label_cn": "W2", "unit": "mm" },
+    { "key": "W", "label_en": "W", "label_cn": "W", "unit": "mm" },
+    { "key": "d1", "label_en": "d1", "label_cn": "d1", "unit": "mm" },
+    { "key": "H", "label_en": "H", "label_cn": "H", "unit": "mm" },
+    { "key": "T", "label_en": "T", "label_cn": "T", "unit": "mm" },
+    { "key": "q", "label_en": "Weight per meter", "label_cn": "每米重量", "unit": "kg/m" }
+  ],
+  "products": [
+    {
+      "id": "CI-ER857",
+      "chain_no": "ER857",
+      "design_id": "cement_k44",
+      "pin_type": "",
+      "material": "",
+      "specs": {}
+    },
+    {
+      "id": "CI-ER859",
+      "chain_no": "ER859",
+      "design_id": "cement_k44",
+      "pin_type": "",
+      "material": "",
+      "specs": {}
+    },
+    {
+      "id": "CI-ER958",
+      "chain_no": "ER958",
+      "design_id": "cement_k44",
+      "pin_type": "",
+      "material": "",
+      "specs": {}
+    },
+    {
+      "id": "CI-ER864",
+      "chain_no": "ER864",
+      "design_id": "cement_k443",
+      "pin_type": "",
+      "material": "",
+      "specs": {}
+    },
+    {
+      "id": "CI-ER984",
+      "chain_no": "ER984",
+      "design_id": "cement_k443",
+      "pin_type": "",
+      "material": "",
+      "specs": {}
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "welded-chain",
+  "name_en": "Welded Chain",
+  "name_cn": "焊接链条",
+  "description_en": "",
+  "description_cn": "",
+  "hero_image": "/images/categories/welded-steel-chain-sample.jpg",
+  "chain_designs": [
+    {
+      "design_id": "welded_narrow_001",
+      "design_name_en": "Narrow Series",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/welded/chains/welded_narrow_001.png"
+    },
+    {
+      "design_id": "welded_narrow_002",
+      "design_name_en": "Narrow Series",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/welded/chains/welded_narrow_002.png"
+    },
+    {
+      "design_id": "welded_narrow_003",
+      "design_name_en": "Narrow Series",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/welded/chains/welded_narrow_003.png"
+    },
+    {
+      "design_id": "welded_wide_001",
+      "design_name_en": "Wide Series",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/welded/chains/welded_wide_001.png"
+    },
+    {
+      "design_id": "welded_wide_002",
+      "design_name_en": "Wide Series",
+      "design_name_cn": "",
+      "drawing": "/images/drawings/welded/chains/welded_wide_002.png"
+    }
+  ]
+}

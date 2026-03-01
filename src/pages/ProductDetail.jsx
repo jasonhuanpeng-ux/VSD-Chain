@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useProductDetail } from '../hooks/useProductData';
+import AttachmentCard from '../components/AttachmentCard';
+import { useState } from 'react';
 
 const ProductDetail = () => {
   const { categorySlug, productId } = useParams();
@@ -152,67 +154,81 @@ const ProductDetail = () => {
               <thead>
                 <tr className="bg-gray-50">
                   <th className="px-6 py-4 text-gray-500 font-bold uppercase text-xs">Parameter</th>
-                  <th className="px-6 py-4 text-gray-500 font-bold uppercase text-xs">中文</th>
                   <th className="px-6 py-4 text-gray-900 font-bold uppercase text-xs">Value</th>
                   <th className="px-6 py-4 text-gray-500 font-bold uppercase text-xs">Unit</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                {specColumns.map(col => (
-                  product.specs[col.key] !== undefined && (
-                    <tr key={col.key} className="hover:bg-blue-50/30 transition-colors">
-                      <td className="px-6 py-4 text-gray-900 font-medium">{col.label_en}</td>
-                      <td className="px-6 py-4 text-gray-500">{col.label_cn}</td>
-                      <td className="px-6 py-4 text-gray-900 font-bold">{product.specs[col.key]}</td>
-                      <td className="px-6 py-4 text-gray-500">{col.unit}</td>
-                    </tr>
-                  )
+                {specColumns.filter(col => product.specs[col.key] !== undefined).map(col => (
+                  <tr key={col.key} className="hover:bg-blue-50/30 transition-colors">
+                    <td className="px-6 py-4 text-gray-900 font-medium">{col.label_en}</td>
+                    <td className="px-6 py-4 text-gray-900 font-bold">{product.specs[col.key]}</td>
+                    <td className="px-6 py-4 text-gray-500">{col.unit}</td>
+                  </tr>
                 ))}
               </tbody>
             </table>
           </div>
         </div>
 
-        {/* 附件区域 */}
-        {attachments.length > 0 && (
-          <div className="mt-20">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 border-b pb-4">
-              Available Attachments ({attachments.length})
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {attachments.map(att => (
-                <div key={att.id} className="bg-white border rounded-xl p-6 hover:shadow-lg transition">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="px-3 py-1 bg-blue-100 text-blue-700 text-sm font-bold rounded-full">
-                      {att.attachment_type}
-                    </span>
-                    <span className="text-xs text-gray-400">{att.id}</span>
-                  </div>
-                  
-                  <h4 className="font-bold text-gray-900 mb-4">{att.attachment_number}</h4>
-                  
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => window.open(att.drawing, '_blank')}
-                      className="flex-1 px-3 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm font-medium transition"
-                    >
-                      View Drawing
-                    </button>
-                    <button
-                      onClick={() => window.open(att.spec_sheet, '_blank')}
-                      className="flex-1 px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition"
-                    >
-                      View Specs
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+        {/* 附件区域（可折叠子列表） */}
+        <div className="mt-20">
+          <AttachmentSection attachments={attachments} product={product} categorySlug={categorySlug} />
+        </div>
       </div>
     </div>
   );
 };
 
 export default ProductDetail;
+
+// Small helper: toggle button and panel components
+function AttachmentSection({ attachments, product, categorySlug }) {
+  const [open, setOpen] = useState(true);
+
+  // group attachments by their number to avoid repeat cards
+  const grouped = (() => {
+    const map = new Map();
+    attachments.forEach(att => {
+      if (!map.has(att.attachment_number)) {
+        map.set(att.attachment_number, att);
+      }
+    });
+    return Array.from(map.values());
+  })();
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-6">
+        <h3 className="text-2xl font-bold text-gray-900">
+          Attachments
+          <span className="ml-2 text-sm text-gray-500">({grouped.length})</span>
+        </h3>
+        <button
+          onClick={() => setOpen(o => !o)}
+          className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition flex items-center gap-2"
+          aria-expanded={open}
+        >
+          {open ? 'Hide' : 'Show'}
+        </button>
+      </div>
+
+      {grouped.length === 0 ? (
+        <p className="text-gray-500">No attachments available for this product.</p>
+      ) : (
+        <div className={`${open ? '' : 'hidden'}`}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {grouped.map(att => (
+              <AttachmentCard
+                key={att.attachment_number}
+                attachment={att}
+                chains={[product]}
+                categoryId={categorySlug}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

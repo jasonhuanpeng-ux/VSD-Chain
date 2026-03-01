@@ -1,0 +1,50 @@
+{
+  "category_id": "cement-industry",
+  "attachments": [
+    {
+      "id": "ATT-CI-ER857-K44",
+      "parent_chain_no": "ER857",
+      "attachment_type": "K44",
+      "attachment_number": "K44",
+      "drawing": "/images/drawings/cement-industry/attachments/cement-att-k44.png",
+      "spec_sheet": "/images/drawings/cement-industry/attachments/cement-att-k44_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-CI-ER859-K44",
+      "parent_chain_no": "ER859",
+      "attachment_type": "K44",
+      "attachment_number": "K44",
+      "drawing": "/images/drawings/cement-industry/attachments/cement-att-k44.png",
+      "spec_sheet": "/images/drawings/cement-industry/attachments/cement-att-k44_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-CI-ER958-K44",
+      "parent_chain_no": "ER958",
+      "attachment_type": "K44",
+      "attachment_number": "K44",
+      "drawing": "/images/drawings/cement-industry/attachments/cement-att-k44.png",
+      "spec_sheet": "/images/drawings/cement-industry/attachments/cement-att-k44_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-CI-ER864-K443",
+      "parent_chain_no": "ER864",
+      "attachment_type": "K443",
+      "attachment_number": "K443",
+      "drawing": "/images/drawings/cement-industry/attachments/cement-att-k443.png",
+      "spec_sheet": "/images/drawings/cement-industry/attachments/cement-att-k443_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-CI-ER984-K443",
+      "parent_chain_no": "ER984",
+      "attachment_type": "K443",
+      "attachment_number": "K443",
+      "drawing": "/images/drawings/cement-industry/attachments/cement-att-k443.png",
+      "spec_sheet": "/images/drawings/cement-industry/attachments/cement-att-k443_data.png",
+      "note": ""
+    }
+  ]
+}

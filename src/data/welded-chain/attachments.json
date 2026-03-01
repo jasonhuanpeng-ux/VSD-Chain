@@ -1,0 +1,923 @@
+{
+  "category_id": "welded-chain",
+  "attachments": [
+    {
+      "id": "ATT-WC-001",
+      "parent_chain_no": "WH78",
+      "attachment_type": "A1",
+      "attachment_number": "A1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-002",
+      "parent_chain_no": "WH82",
+      "attachment_type": "A1",
+      "attachment_number": "A1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-003",
+      "parent_chain_no": "WH78",
+      "attachment_type": "A22",
+      "attachment_number": "A22",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a22.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-004",
+      "parent_chain_no": "WH124",
+      "attachment_type": "A22",
+      "attachment_number": "A22",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a22.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-005",
+      "parent_chain_no": "WH78",
+      "attachment_type": "K1",
+      "attachment_number": "K1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_k1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-006",
+      "parent_chain_no": "WH82",
+      "attachment_type": "K1",
+      "attachment_number": "K1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_k1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a1_a22_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-007",
+      "parent_chain_no": "WH78",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-008",
+      "parent_chain_no": "WH82",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-009",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-010",
+      "parent_chain_no": "WHX132",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-011",
+      "parent_chain_no": "WHX150",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-012",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-013",
+      "parent_chain_no": "WHX157",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-014",
+      "parent_chain_no": "WH78",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-015",
+      "parent_chain_no": "WH82",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-016",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-017",
+      "parent_chain_no": "WHX132",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-018",
+      "parent_chain_no": "WHX150",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-019",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-020",
+      "parent_chain_no": "WHX157",
+      "attachment_type": "K2",
+      "attachment_number": "K2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_a2_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-021",
+      "parent_chain_no": "WH78",
+      "attachment_type": "F2",
+      "attachment_number": "F2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-022",
+      "parent_chain_no": "WH78",
+      "attachment_type": "F4",
+      "attachment_number": "F4",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-023",
+      "parent_chain_no": "WH82",
+      "attachment_type": "F4",
+      "attachment_number": "F4",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-024",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "F4",
+      "attachment_number": "F4",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-025",
+      "parent_chain_no": "WH78",
+      "attachment_type": "R1",
+      "attachment_number": "R1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-026",
+      "parent_chain_no": "WH82",
+      "attachment_type": "R1",
+      "attachment_number": "R1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-027",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "R1",
+      "attachment_number": "R1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-028",
+      "parent_chain_no": "WH78",
+      "attachment_type": "R2",
+      "attachment_number": "R2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-029",
+      "parent_chain_no": "WH82",
+      "attachment_type": "R2",
+      "attachment_number": "R2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-030",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "R2",
+      "attachment_number": "R2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_r2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_r1_r2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-031",
+      "parent_chain_no": "WH78",
+      "attachment_type": "RR1",
+      "attachment_number": "RR1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-032",
+      "parent_chain_no": "WH82",
+      "attachment_type": "RR1",
+      "attachment_number": "RR1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-033",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "RR1",
+      "attachment_number": "RR1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-034",
+      "parent_chain_no": "WH78",
+      "attachment_type": "RR2",
+      "attachment_number": "RR2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-035",
+      "parent_chain_no": "WH82",
+      "attachment_type": "RR2",
+      "attachment_number": "RR2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-036",
+      "parent_chain_no": "WHX124",
+      "attachment_type": "RR2",
+      "attachment_number": "RR2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr1_rr2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-037",
+      "parent_chain_no": "WH111",
+      "attachment_type": "S1",
+      "attachment_number": "S1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_s1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_s1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-038",
+      "parent_chain_no": "WH132",
+      "attachment_type": "S1",
+      "attachment_number": "S1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_s1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_s1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-039",
+      "parent_chain_no": "WHX157",
+      "attachment_type": "S1",
+      "attachment_number": "S1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_s1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_s1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-040",
+      "parent_chain_no": "DWR78",
+      "attachment_type": "F20",
+      "attachment_number": "F20",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f20.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f20_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-041",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "RR2",
+      "attachment_number": "RR2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr2_data_2.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-042",
+      "parent_chain_no": "WH150",
+      "attachment_type": "RR2",
+      "attachment_number": "RR2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rr2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rr2_data_2.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-043",
+      "parent_chain_no": "WH132",
+      "attachment_type": "RFA",
+      "attachment_number": "RFA",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rfa.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rfa_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-044",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "RFA",
+      "attachment_number": "RFA",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rfa.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rfa_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-045",
+      "parent_chain_no": "FWHX150",
+      "attachment_type": "RFB",
+      "attachment_number": "RFB",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rfb.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rfb_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-046",
+      "parent_chain_no": "WH124",
+      "attachment_type": "RFB",
+      "attachment_number": "RFB",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_rfb.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_rfb_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-047",
+      "parent_chain_no": "WH720S",
+      "attachment_type": "F226",
+      "attachment_number": "F226",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_f226.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_f226_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-048",
+      "parent_chain_no": "WH78",
+      "attachment_type": "H1",
+      "attachment_number": "H1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_h1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_h1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-049",
+      "parent_chain_no": "WH82",
+      "attachment_type": "H1",
+      "attachment_number": "H1",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_h1.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_h1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-050",
+      "parent_chain_no": "WH78",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-051",
+      "parent_chain_no": "WH82",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-052",
+      "parent_chain_no": "WH124",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-053",
+      "parent_chain_no": "WH111",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-054",
+      "parent_chain_no": "WH132",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-055",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-056",
+      "parent_chain_no": "WHX157",
+      "attachment_type": "BH2",
+      "attachment_number": "BH2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bh2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bh2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-057",
+      "parent_chain_no": "WH124",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-058",
+      "parent_chain_no": "WH111",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-059",
+      "parent_chain_no": "WH132",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-060",
+      "parent_chain_no": "WH150",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-061",
+      "parent_chain_no": "WHX155",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-062",
+      "parent_chain_no": "WHX157",
+      "attachment_type": "BF2",
+      "attachment_number": "BF2",
+      "drawing": "/images/drawings/welded/attachments/welded_narrow_att_bf2.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_narrow_att_bf2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-063",
+      "parent_chain_no": "WDH110",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-064",
+      "parent_chain_no": "WDR110",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-065",
+      "parent_chain_no": "WDH112",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-066",
+      "parent_chain_no": "WDR112",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-067",
+      "parent_chain_no": "WDH2210",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-068",
+      "parent_chain_no": "WDR2210",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-069",
+      "parent_chain_no": "WDH120",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-070",
+      "parent_chain_no": "WDR120",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-071",
+      "parent_chain_no": "WDH2380",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-072",
+      "parent_chain_no": "WDR2380",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-073",
+      "parent_chain_no": "WDH480",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-074",
+      "parent_chain_no": "WDR480",
+      "attachment_type": "WING",
+      "attachment_number": "WING",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_wing.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_wing_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-075",
+      "parent_chain_no": "WDH110",
+      "attachment_type": "W24",
+      "attachment_number": "W24",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_w24.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_w24_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-076",
+      "parent_chain_no": "WDR110",
+      "attachment_type": "W24",
+      "attachment_number": "W24",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_w24.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_w24_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-077",
+      "parent_chain_no": "WDH110",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-078",
+      "parent_chain_no": "WDR110",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-079",
+      "parent_chain_no": "WDH112",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-080",
+      "parent_chain_no": "WDR112",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-081",
+      "parent_chain_no": "WDH2210",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-082",
+      "parent_chain_no": "WDR2210",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-083",
+      "parent_chain_no": "WDH120",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-084",
+      "parent_chain_no": "WDR120",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-085",
+      "parent_chain_no": "WDH480",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-086",
+      "parent_chain_no": "WDR480",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-087",
+      "parent_chain_no": "WDH2380",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-088",
+      "parent_chain_no": "WDR2380",
+      "attachment_type": "RR",
+      "attachment_number": "RR",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_rr.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_rr_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-089",
+      "parent_chain_no": "WDH110",
+      "attachment_type": "C1",
+      "attachment_number": "C1",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-090",
+      "parent_chain_no": "WDR110",
+      "attachment_type": "C1",
+      "attachment_number": "C1",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-091",
+      "parent_chain_no": "WDH112",
+      "attachment_type": "C1",
+      "attachment_number": "C1",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-092",
+      "parent_chain_no": "WDR112",
+      "attachment_type": "C1",
+      "attachment_number": "C1",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-093",
+      "parent_chain_no": "WDH120",
+      "attachment_type": "C3",
+      "attachment_number": "C3",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-094",
+      "parent_chain_no": "WDR120",
+      "attachment_type": "C3",
+      "attachment_number": "C3",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-095",
+      "parent_chain_no": "WDH480",
+      "attachment_type": "C3",
+      "attachment_number": "C3",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-096",
+      "parent_chain_no": "WDR480",
+      "attachment_type": "C3",
+      "attachment_number": "C3",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-097",
+      "parent_chain_no": "WDH110",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-098",
+      "parent_chain_no": "WDR110",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-099",
+      "parent_chain_no": "WDH112",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-100",
+      "parent_chain_no": "WDR112",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-101",
+      "parent_chain_no": "WDH480",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-WC-102",
+      "parent_chain_no": "WDR480",
+      "attachment_type": "C4",
+      "attachment_number": "C4",
+      "drawing": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4.png",
+      "spec_sheet": "/images/drawings/welded/attachments/welded_wide_att_c1_c3_c4_data.png",
+      "note": ""
+    }
+  ]
+}

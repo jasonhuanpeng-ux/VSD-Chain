@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AttachmentCard = ({ attachment }) => {
+const AttachmentCard = ({ attachment, chains = [], categoryId }) => {
   const [showDrawing, setShowDrawing] = useState(false);
   const [showSpecs, setShowSpecs] = useState(false);
   const [imageError, setImageError] = useState({});
@@ -13,13 +13,15 @@ const AttachmentCard = ({ attachment }) => {
     <>
       <div className="border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow bg-white">
         {/* Header */}
-        <div className="flex items-center justify-between mb-3">
+        <div className="mb-3 flex items-center justify-between">
           <span className="px-3 py-1 bg-blue-100 text-blue-700 text-sm font-bold rounded-full">
             {attachment.attachment_type}
           </span>
-          <span className="text-xs text-gray-400">
-            {attachment.id}
-          </span>
+          {categoryId && (
+            <span className="text-xs text-gray-500 font-medium uppercase tracking-wide">
+              {categoryId}
+            </span>
+          )}
         </div>
 
         {/* Attachment Number */}
@@ -27,9 +29,11 @@ const AttachmentCard = ({ attachment }) => {
           {attachment.attachment_number}
         </h4>
         
-        <p className="text-sm text-gray-500 mb-4">
-          For Chain: <span className="font-medium text-gray-700">{attachment.parent_chain_no}</span>
-        </p>
+        {attachment.description && (
+          <p className="text-sm text-gray-600 mb-4">
+            {attachment.description}
+          </p>
+        )}
 
         {/* Action Buttons */}
         <div className="flex gap-2">

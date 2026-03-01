@@ -1,0 +1,1237 @@
+{
+  "category_id": "welded-chain",
+  "spec_columns": [
+    {
+      "key": "P",
+      "label_en": "Pitch",
+      "label_cn": "节距",
+      "unit": "mm"
+    },
+    {
+      "key": "b1",
+      "label_en": "Inner Width",
+      "label_cn": "内宽",
+      "unit": "mm"
+    },
+    {
+      "key": "R",
+      "label_en": "Roller Dia",
+      "label_cn": "滚子直径",
+      "unit": "mm"
+    },
+    {
+      "key": "d",
+      "label_en": "Pin Dia",
+      "label_cn": "销轴直径",
+      "unit": "mm"
+    },
+    {
+      "key": "id_hollow",
+      "label_en": "Hollow Pin Inner Dia",
+      "label_cn": "空心销内径",
+      "unit": "mm"
+    },
+    {
+      "key": "L1",
+      "label_en": "Pin Length L1",
+      "label_cn": "销轴长度L1",
+      "unit": "mm"
+    },
+    {
+      "key": "L2",
+      "label_en": "Pin Length L2",
+      "label_cn": "销轴长度L2",
+      "unit": "mm"
+    },
+    {
+      "key": "h",
+      "label_en": "Plate Height",
+      "label_cn": "链板高度",
+      "unit": "mm"
+    },
+    {
+      "key": "t",
+      "label_en": "Inner Plate Thickness",
+      "label_cn": "内链板厚度",
+      "unit": "mm"
+    },
+    {
+      "key": "T",
+      "label_en": "Outer Plate Thickness",
+      "label_cn": "外链板厚度",
+      "unit": "mm"
+    },
+    {
+      "key": "Fu",
+      "label_en": "Tensile Strength",
+      "label_cn": "抗拉强度",
+      "unit": "kN"
+    },
+    {
+      "key": "q",
+      "label_en": "Weight",
+      "label_cn": "重量",
+      "unit": "kg/m"
+    }
+  ],
+  "products": [
+    {
+      "id": "WC-001",
+      "chain_no": "WR78",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 28.4,
+        "R": 22.23,
+        "d": 12.7,
+        "L1": 36.3,
+        "L2": 39.5,
+        "h": 28.6,
+        "T": 6.4,
+        "Fu": 106.8,
+        "q": 5.94
+      }
+    },
+    {
+      "id": "WC-002",
+      "chain_no": "DWR78",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 28.4,
+        "R": 21.4,
+        "d": 12.7,
+        "L1": 36.3,
+        "L2": 39.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 125,
+        "q": 6.42
+      }
+    },
+    {
+      "id": "WC-003",
+      "chain_no": "WR78B",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 28.4,
+        "R": 27,
+        "d": 12.7,
+        "L1": 36.3,
+        "L2": 39.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 125,
+        "q": 7.03
+      }
+    },
+    {
+      "id": "WC-004",
+      "chain_no": "WSR78",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 20,
+        "R": 21.3,
+        "d": 12.7,
+        "L1": 31.5,
+        "L2": 34.6,
+        "h": 25.4,
+        "T": 6.4,
+        "Fu": 85.3,
+        "q": 5.21
+      }
+    },
+    {
+      "id": "WC-005",
+      "chain_no": "WR78HD",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.95,
+        "b1": 25.4,
+        "R": 25.4,
+        "d": 14.27,
+        "L1": 40.2,
+        "L2": 45.3,
+        "h": 31.8,
+        "T": 9.5,
+        "Fu": 133.4,
+        "q": 9.41
+      }
+    },
+    {
+      "id": "WC-006",
+      "chain_no": "WR82",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 31.8,
+        "R": 25.4,
+        "d": 14.27,
+        "L1": 40,
+        "L2": 43.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 133.4,
+        "q": 6.83
+      }
+    },
+    {
+      "id": "WC-007",
+      "chain_no": "WR82SS",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Stainless Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 31.8,
+        "R": 25.4,
+        "d": 14.27,
+        "L1": 40,
+        "L2": 43.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 133.4,
+        "q": 6.83
+      }
+    },
+    {
+      "id": "WC-008",
+      "chain_no": "WR82HD",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 28.6,
+        "R": 31.75,
+        "d": 19.05,
+        "L1": 46.5,
+        "L2": 50.8,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 215,
+        "q": 12.71
+      }
+    },
+    {
+      "id": "WC-009",
+      "chain_no": "WR124",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 101.6,
+        "b1": 38.1,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 52,
+        "L2": 56,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 204,
+        "q": 11.52
+      }
+    },
+    {
+      "id": "WC-010",
+      "chain_no": "WR124HD",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 103.2,
+        "b1": 38.1,
+        "R": 41.28,
+        "d": 25.4,
+        "L1": 59.4,
+        "L2": 64.3,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 378,
+        "q": 21.33
+      }
+    },
+    {
+      "id": "WC-011",
+      "chain_no": "WR111",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 120.9,
+        "b1": 50.8,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 59.4,
+        "L2": 63.3,
+        "h": 44.5,
+        "T": 9.5,
+        "Fu": 270,
+        "q": 13.05
+      }
+    },
+    {
+      "id": "WC-012",
+      "chain_no": "WR106",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 52,
+        "L2": 56,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 204,
+        "q": 9.65
+      }
+    },
+    {
+      "id": "WC-013",
+      "chain_no": "WR110",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 44.5,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 54.4,
+        "L2": 59.6,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 204,
+        "q": 9.57
+      }
+    },
+    {
+      "id": "WC-014",
+      "chain_no": "WR132",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 77.3,
+        "L2": 81.7,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 345,
+        "q": 21.08
+      }
+    },
+    {
+      "id": "WC-015",
+      "chain_no": "WR150",
+      "design_id": "welded_narrow_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 77.3,
+        "L2": 81.7,
+        "h": 63.5,
+        "T": 12.7,
+        "Fu": 345,
+        "q": 24.93
+      }
+    },
+    {
+      "id": "WC-016",
+      "chain_no": "WH78",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 28.4,
+        "R": 22.23,
+        "d": 12.7,
+        "L1": 36.3,
+        "L2": 39.5,
+        "h": 28.6,
+        "T": 6.4,
+        "Fu": 160,
+        "q": 5.92
+      }
+    },
+    {
+      "id": "WC-017",
+      "chain_no": "WH78B",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.27,
+        "b1": 28.4,
+        "R": 27,
+        "d": 12.7,
+        "L1": 36.3,
+        "L2": 39.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 160,
+        "q": 6.98
+      }
+    },
+    {
+      "id": "WC-018",
+      "chain_no": "WH78HD",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 66.95,
+        "b1": 25.4,
+        "R": 25.4,
+        "d": 14.27,
+        "L1": 40.2,
+        "L2": 45.3,
+        "h": 31.8,
+        "T": 9.5,
+        "Fu": 200,
+        "q": 9.4
+      }
+    },
+    {
+      "id": "WC-019",
+      "chain_no": "WH82",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 31.8,
+        "R": 27,
+        "d": 14.27,
+        "L1": 40,
+        "L2": 43.5,
+        "h": 31.8,
+        "T": 6.4,
+        "Fu": 200,
+        "q": 7.14
+      }
+    },
+    {
+      "id": "WC-020",
+      "chain_no": "WH82HD",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 28.6,
+        "R": 31.75,
+        "d": 19.05,
+        "L1": 46.5,
+        "L2": 50.8,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 12.7
+      }
+    },
+    {
+      "id": "WC-021",
+      "chain_no": "WH9103HD",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 78.1,
+        "b1": 28.6,
+        "R": 31.75,
+        "d": 18.95,
+        "L1": 43.5,
+        "L2": 48.4,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 11.9
+      }
+    },
+    {
+      "id": "WC-022",
+      "chain_no": "WH124",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 101.6,
+        "b1": 38.1,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 52,
+        "L2": 56,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 11.5
+      }
+    },
+    {
+      "id": "WC-023",
+      "chain_no": "WH124HD",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 103.2,
+        "b1": 38.1,
+        "R": 41.28,
+        "d": 25.4,
+        "L1": 59.4,
+        "L2": 64.3,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 540,
+        "q": 21.3
+      }
+    },
+    {
+      "id": "WC-024",
+      "chain_no": "WH111",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 120.9,
+        "b1": 50.8,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 59.4,
+        "L2": 63.3,
+        "h": 44.5,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 13
+      }
+    },
+    {
+      "id": "WC-025",
+      "chain_no": "WH720",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 28.5,
+        "R": 32,
+        "d": 19.05,
+        "L1": 44.5,
+        "L2": 49.5,
+        "h": 40,
+        "T": 10,
+        "Fu": 350,
+        "q": 9.7
+      }
+    },
+    {
+      "id": "WC-026",
+      "chain_no": "WH106",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 52,
+        "L2": 56,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 9.6
+      }
+    },
+    {
+      "id": "WC-027",
+      "chain_no": "WH110",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 44.5,
+        "R": 31.8,
+        "d": 19.05,
+        "L1": 54.4,
+        "L2": 59.6,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 9.6
+      }
+    },
+    {
+      "id": "WC-028",
+      "chain_no": "WH132HD",
+      "design_id": "welded_narrow_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 84,
+        "L2": 89.7,
+        "h": 50.8,
+        "T": 15.9,
+        "Fu": 540,
+        "q": 24.8
+      }
+    },
+    {
+      "id": "WC-029",
+      "chain_no": "WHX124",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 101.6,
+        "b1": 38.1,
+        "R": 36.55,
+        "d": 19.05,
+        "L1": 51.8,
+        "L2": 56.2,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 12.5
+      }
+    },
+    {
+      "id": "WC-030",
+      "chain_no": "WHX124HD",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 103.2,
+        "b1": 38.1,
+        "R": 41.28,
+        "d": 25.4,
+        "L1": 59.4,
+        "L2": 64.3,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 540,
+        "q": 20.7
+      }
+    },
+    {
+      "id": "WC-031",
+      "chain_no": "WHX111",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 120.9,
+        "b1": 50.8,
+        "R": 36.55,
+        "d": 19.05,
+        "L1": 58.7,
+        "L2": 64.5,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 12.5
+      }
+    },
+    {
+      "id": "WC-032",
+      "chain_no": "WHX111HD",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 120.9,
+        "b1": 57.15,
+        "R": 36.53,
+        "d": 19.05,
+        "L1": 65.5,
+        "L2": 69.5,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 320,
+        "q": 19.1
+      }
+    },
+    {
+      "id": "WC-033",
+      "chain_no": "WHX132",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 77.3,
+        "L2": 81.7,
+        "h": 50.8,
+        "T": 12.7,
+        "Fu": 540,
+        "q": 20.4
+      }
+    },
+    {
+      "id": "WC-034",
+      "chain_no": "WHX132HD",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 84,
+        "L2": 89.7,
+        "h": 50.8,
+        "T": 15.9,
+        "Fu": 540,
+        "q": 24.8
+      }
+    },
+    {
+      "id": "WC-035",
+      "chain_no": "WHX106",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 38.1,
+        "R": 36.55,
+        "d": 19.05,
+        "L1": 51.8,
+        "L2": 56.2,
+        "h": 38.1,
+        "T": 9.5,
+        "Fu": 320,
+        "q": 9.7
+      }
+    },
+    {
+      "id": "WC-036",
+      "chain_no": "WHX150",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25.4,
+        "L1": 77.3,
+        "L2": 81.7,
+        "h": 63.5,
+        "T": 12.7,
+        "Fu": 540,
+        "q": 24.5
+      }
+    },
+    {
+      "id": "WC-037",
+      "chain_no": "FWHX150",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 25,
+        "L1": 75,
+        "L2": 81,
+        "h": 65,
+        "T": 12,
+        "Fu": 520,
+        "q": 24.7
+      }
+    },
+    {
+      "id": "WC-038",
+      "chain_no": "WHX155",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 28.4,
+        "L1": 77.4,
+        "L2": 87.5,
+        "h": 63.5,
+        "T": 14.3,
+        "Fu": 660,
+        "q": 27.7
+      }
+    },
+    {
+      "id": "WC-039",
+      "chain_no": "WHX157",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 153.67,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 28.55,
+        "L1": 81.4,
+        "L2": 92.6,
+        "h": 63.5,
+        "T": 15.9,
+        "Fu": 750,
+        "q": 29.3
+      }
+    },
+    {
+      "id": "WC-040",
+      "chain_no": "WHX159",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 155.58,
+        "b1": 73,
+        "R": 50.8,
+        "d": 31.5,
+        "L1": 83,
+        "L2": 84.8,
+        "h": 76.2,
+        "T": 15.9,
+        "Fu": 930,
+        "q": 38.4
+      }
+    },
+    {
+      "id": "WC-041",
+      "chain_no": "WHX4855",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 304.8,
+        "b1": 69.85,
+        "R": 44.5,
+        "d": 31.55,
+        "L1": 81.8,
+        "L2": 84.3,
+        "h": 63.5,
+        "T": 15.9,
+        "Fu": 780,
+        "q": 22.5
+      }
+    },
+    {
+      "id": "WC-042",
+      "chain_no": "WHX4859",
+      "design_id": "welded_narrow_003",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 304.8,
+        "b1": 73,
+        "R": 50.8,
+        "d": 31.5,
+        "L1": 83,
+        "L2": 84.8,
+        "h": 76.2,
+        "T": 15.9,
+        "Fu": 930,
+        "q": 28.9
+      }
+    },
+    {
+      "id": "WC-043",
+      "chain_no": "WDR104",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 104.6,
+        "R": 38.1,
+        "d": 84.2,
+        "L1": 91,
+        "L2": 204,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 28.5
+      }
+    },
+    {
+      "id": "WC-044",
+      "chain_no": "WDR110",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 204,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 28.5
+      }
+    },
+    {
+      "id": "WC-045",
+      "chain_no": "WDR120",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 222.2,
+        "R": 50.8,
+        "d": 150.5,
+        "L1": 157,
+        "L2": 390,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 48
+      }
+    },
+    {
+      "id": "WC-046",
+      "chain_no": "WDR112",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 204,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 28.5
+      }
+    },
+    {
+      "id": "WC-047",
+      "chain_no": "WDR116",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 325.8,
+        "R": 44.5,
+        "d": 195.4,
+        "L1": 201.8,
+        "L2": 262,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 36.5
+      }
+    },
+    {
+      "id": "WC-048",
+      "chain_no": "WDR118",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 334,
+        "R": 50.8,
+        "d": 210.7,
+        "L1": 217.2,
+        "L2": 390,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 48
+      }
+    },
+    {
+      "id": "WC-049",
+      "chain_no": "WDR480",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 182.2,
+        "L1": 188.7,
+        "L2": 390,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 48
+      }
+    },
+    {
+      "id": "WC-050",
+      "chain_no": "WDR2210",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 155.85,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 204,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 28.5
+      }
+    },
+    {
+      "id": "WC-051",
+      "chain_no": "WDR2380",
+      "design_id": "welded_wide_001",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 207.29,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 182.2,
+        "L1": 188.7,
+        "L2": 390,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 48
+      }
+    },
+    {
+      "id": "WC-052",
+      "chain_no": "WDH104",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 104.6,
+        "R": 38.1,
+        "d": 84.2,
+        "L1": 91,
+        "L2": 310,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 44.5
+      }
+    },
+    {
+      "id": "WC-053",
+      "chain_no": "WDH110",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 310,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 44.5
+      }
+    },
+    {
+      "id": "WC-054",
+      "chain_no": "WDH120",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 152.4,
+        "b1": 222.2,
+        "R": 50.8,
+        "d": 150.5,
+        "L1": 157,
+        "L2": 500,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 66.8
+      }
+    },
+    {
+      "id": "WC-055",
+      "chain_no": "WDH112",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 310,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 44.5
+      }
+    },
+    {
+      "id": "WC-056",
+      "chain_no": "WDH116",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 325.8,
+        "R": 44.5,
+        "d": 195.4,
+        "L1": 201.8,
+        "L2": 320,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 51.2
+      }
+    },
+    {
+      "id": "WC-057",
+      "chain_no": "WDH118",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 334,
+        "R": 50.8,
+        "d": 210.7,
+        "L1": 217.2,
+        "L2": 500,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 66.8
+      }
+    },
+    {
+      "id": "WC-058",
+      "chain_no": "WDH480",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 182.2,
+        "L1": 188.7,
+        "L2": 500,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 66.8
+      }
+    },
+    {
+      "id": "WC-059",
+      "chain_no": "WDH580",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 181.5,
+        "L1": 189.3,
+        "L2": 540,
+        "h": 12.7,
+        "T": 25.4,
+        "Fu": 91.2
+      }
+    },
+    {
+      "id": "WC-060",
+      "chain_no": "WDH680",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 203.2,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 190.7,
+        "L1": 198.5,
+        "L2": 540,
+        "h": 16,
+        "T": 25.4,
+        "Fu": 91.2
+      }
+    },
+    {
+      "id": "WC-061",
+      "chain_no": "WDH2210",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 155.85,
+        "b1": 228.6,
+        "R": 38.1,
+        "d": 147.8,
+        "L1": 154.5,
+        "L2": 310,
+        "h": 9.5,
+        "T": 19.05,
+        "Fu": 44.5
+      }
+    },
+    {
+      "id": "WC-062",
+      "chain_no": "WDH2380",
+      "design_id": "welded_wide_002",
+      "pin_type": "",
+      "material": "Carbon Steel",
+      "specs": {
+        "P": 207.29,
+        "b1": 282.4,
+        "R": 50.8,
+        "d": 182.2,
+        "L1": 188.7,
+        "L2": 500,
+        "h": 12.7,
+        "T": 22.23,
+        "Fu": 66.8
+      }
+    }
+  ]
+}

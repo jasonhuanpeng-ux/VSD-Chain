@@ -8,5 +8,36 @@
     "summary": "High strength chains for sugar production lines",
     "sort_order": 1,
     "is_active": true
+  },
+  {
+    "id": "palm-oil",
+    "slug": "palm-oil",
+    "name_en": "Palm Oil Chain",
+    "name_cn": "棕榈油链条",
+    "image": "/images/categories/palm-oil-chain-sample.png",
+    "summary": "Specialized chains for palm oil processing and conveying",
+    "sort_order": 2,
+    "is_active": true
+  }
+  ,
+  {
+    "id": "cement-industry",
+    "slug": "cement-industry",
+    "name_en": "Cement Industry Chain",
+    "name_cn": "水泥行业链条",
+    "image": "/images/categories/cement-industry-chain-sample.png",
+    "summary": "Bucket elevator and heavy duty chains for cement industry",
+    "sort_order": 3,
+    "is_active": false
+  },
+  {
+    "id": "welded-chain",
+    "slug": "welded-chain",
+    "name_en": "Welded Chain",
+    "name_cn": "焊接链条",
+    "image": "/images/categories/welded-steel-chain-sample.jpg",
+    "summary": "Robust welded chains for various applications",
+    "sort_order": 4,
+    "is_active": true
   }
 ]

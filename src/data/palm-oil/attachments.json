@@ -1,0 +1,320 @@
+{
+  "category_id": "palm-oil",
+  "attachments": [
+    {
+      "id": "ATT-PO-001",
+      "parent_chain_no": "PM94R",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_a2_a3.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_a2_a3_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-002",
+      "parent_chain_no": "RF604R",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_a2_a3.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_a2_a3_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-003",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "A2",
+      "attachment_number": "A2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_a2_a3.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_a2_a3_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-004",
+      "parent_chain_no": "PM94R",
+      "attachment_type": "A3",
+      "attachment_number": "A3",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_a2_a3.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_a2_a3_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-005",
+      "parent_chain_no": "4X26000-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-006",
+      "parent_chain_no": "KT818EB-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-007",
+      "parent_chain_no": "B5305",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-008",
+      "parent_chain_no": "ES4P23",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-009",
+      "parent_chain_no": "ES6P36HS",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-010",
+      "parent_chain_no": "4X40000-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-011",
+      "parent_chain_no": "9060",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-012",
+      "parent_chain_no": "ES6P36H",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-013",
+      "parent_chain_no": "B5289",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-014",
+      "parent_chain_no": "6X51000-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-015",
+      "parent_chain_no": "B5289",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-016",
+      "parent_chain_no": "B5289H",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-017",
+      "parent_chain_no": "6X36000-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-018",
+      "parent_chain_no": "160004F1",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-019",
+      "parent_chain_no": "ES6P36H",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-020",
+      "parent_chain_no": "ES6P36HS",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-021",
+      "parent_chain_no": "ES6P36HS-R",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-022",
+      "parent_chain_no": "ES6P36",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-023",
+      "parent_chain_no": "ES6P36A",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-024",
+      "parent_chain_no": "4X30000HP",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-025",
+      "parent_chain_no": "ES6P36HS",
+      "attachment_type": "Extended Pin",
+      "attachment_number": "Extended Pin",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ext_pin.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ext_pin_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-026",
+      "parent_chain_no": "RF101001F2",
+      "attachment_type": "LA2",
+      "attachment_number": "LA2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_la2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_la2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-027",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "LA3",
+      "attachment_number": "LA3",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_la2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_la2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-028",
+      "parent_chain_no": "RF101001F2",
+      "attachment_type": "k1",
+      "attachment_number": "k1",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_k1.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-029",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "k1",
+      "attachment_number": "k1",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_k1.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_k1_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-030",
+      "parent_chain_no": "101005F1S",
+      "attachment_type": "k2",
+      "attachment_number": "k2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_k2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-031",
+      "parent_chain_no": "PM94R",
+      "attachment_type": "k2",
+      "attachment_number": "k2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_k2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_k2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-032",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "LAO",
+      "attachment_number": "LAO",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_LAO.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_LAO_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-033",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "TA2",
+      "attachment_number": "TA2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_ta2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_ta2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-034",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "EP_TA2",
+      "attachment_number": "EP_TA2",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_epta2.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_epta2_data.png",
+      "note": ""
+    },
+    {
+      "id": "ATT-PO-035",
+      "parent_chain_no": "ES6P36H-R",
+      "attachment_type": "EP_TA2C",
+      "attachment_number": "EP_TA2C",
+      "drawing": "/images/drawings/palm-oil/attachments/palm_att_epta2c.png",
+      "spec_sheet": "/images/drawings/palm-oil/attachments/palm_att_epta2c_data.png",
+      "note": ""
+    }
+  ]
+}

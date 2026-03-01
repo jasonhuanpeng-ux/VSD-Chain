@@ -44,7 +44,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {categoriesData.map((cat) => (
+            {categoriesData.filter(cat => cat.is_active !== false).map((cat) => (
               <Link 
                 to={`/products/${cat.slug}`} 
                 key={cat.id}
