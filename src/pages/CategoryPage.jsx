@@ -14,7 +14,7 @@ const CategoryPage = () => {
   const [selectedDesign, setSelectedDesign] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // 🔍 调试：打印数据
+  // 调试
   console.log('=== DEBUG ===');
   console.log('categorySlug:', categorySlug);
   console.log('loading:', loading);
@@ -22,10 +22,10 @@ const CategoryPage = () => {
   console.log('data:', data);
 
   
-  // 获取类别基本信息（用于没有详细数据的类别）
+  // 获取类别基本信息
   const categoryBasic = categoriesData.find(c => c.slug === categorySlug);
 
-  // Loading 状态
+  // Loading 
   if (loading) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-20 text-center">

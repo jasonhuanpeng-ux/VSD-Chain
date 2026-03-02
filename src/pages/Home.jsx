@@ -5,7 +5,7 @@ import categoriesData from '../data/categories.json';
 const Home = () => {
   return (
     <div className="flex flex-col">
-      {/* 1. Hero Section (英雄区) */}
+      {/* 1. Hero Section*/}
       <section className="bg-slate-900 text-white py-24 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tight leading-tight">
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 2. Categories Grid (品类展示区 - 已更新图片逻辑) */}
+      {/* 2. Categories Grid */}
       <section id="categories" className="py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-end mb-12">
@@ -50,7 +50,7 @@ const Home = () => {
                 key={cat.id}
                 className="group bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
               >
-                {/* 图片容器：展示真实产品图 */}
+                {/* 图片容器 展示真实产品图 */}
                 <div className="aspect-[4/3] bg-gray-100 overflow-hidden relative">
                   <img 
                     src={cat.image} 
@@ -81,14 +81,14 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 3. Features Section (特点介绍) */}
+      {/* 3. Features Section  */}
       <section className="py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-black text-gray-900 mb-16 text-center tracking-tight">WHY PARTNER WITH US</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center group">
               <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-3xl flex items-center justify-center text-4xl mx-auto mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-sm">
-                🏗️
+                🏭
               </div>
               <h3 className="text-xl font-bold mb-3">Industry Expertise</h3>
               <p className="text-gray-500 leading-relaxed">Deep understanding of palm oil and sugar mill conveyor requirements.</p>

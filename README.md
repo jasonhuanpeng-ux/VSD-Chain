@@ -1,30 +1,48 @@
 # Chain Platform - Industrial Chain Product Catalog
 
-一个为工业链条制造商设计的现代化产品展示平台，用于展示和销售棕榈油链、制糖机链、焊接链等高性能工业链条产品。
+Chain Platform 是一个基于 React 和 Vite 的工业链条产品展示网站。支持多类别链条（如制糖机链、棕榈油链、焊接链等）的浏览、详情查看和在线询价。
 
-## 🎯 项目概述
+## 项目功能
 
-**Chain Platform** 是一个基于 React + Vite 的电商展示网站，帮助工业链条企业向全球客户展示产品、获取询价。
+- 产品分类浏览
+- 产品详情与技术参数
+- 按行业应用筛选产品
+- 在线询价表单
+- 响应式设计，支持手机、平板和桌面
 
-### 核心功能
+## 技术栈
 
-- 📦 **产品分类展示** - 多类别链条产品（Sugar Mill Chain、Palm Oil Chain、Welded Chain）
-- 🔍 **产品详情** - 技术规格参数、设计图纸、配件信息
-- 🏭 **应用场景** - 按工业应用类型（制糖、棕榈油、通用工业等）展示产品
-- 📋 **询价表单** - 客户可直接提交采购询价
-- 📱 **响应式设计** - 完全支持移动端、平板、桌面端
+- React 19
+- Vite
+- React Router v7
+- Tailwind CSS
+- ESLint
 
-## 🛠️ 技术栈
+## 快速开始
 
-- **Frontend Framework**: React 19
-- **Build Tool**: Vite (Rolldown)
-- **Routing**: React Router v7
-- **Styling**: Tailwind CSS + PostCSS
-- **State Management**: React Hooks
-- **Testing**: Puppeteer
-- **Code Quality**: ESLint
+1. 安装依赖
+    ```bash
+    npm install
+    ```
+2. 启动开发环境
+    ```bash
+    npm run dev
+    ```
+    访问 http://localhost:5173
+3. 构建生产版本
+    ```bash
+    npm run build
+    ```
+4. 预览生产构建
+    ```bash
+    npm run preview
+    ```
 
-## 📁 项目结构
+## 数据结构
+
+产品数据存放在 `src/data/` 目录下，采用 JSON 格式。
+
+## 目录结构
 
 ```
 chain-platform/
@@ -38,113 +56,43 @@ chain-platform/
 │   │   ├── applications.jsx # 应用列表页
 │   │   └── Inquiry.jsx     # 询价表单
 │   ├── components/         # 可复用组件
+│   │   ├── Navbar.jsx      # 顶部导航栏
+│   │   ├── CartPanel.jsx   # 购物车浮窗
+│   │   ├── DesignCard.jsx  # 设计卡片
+│   │   ├── ProductTable.jsx # 产品表格
+│   │   └── AttachmentCard.jsx # 配件卡片
 │   ├── hooks/              # 自定义 Hook
+│   │   ├── useCart.js      # 购物车状态管理
+│   │   └── useProductData.js # 产品数据加载
 │   ├── data/               # 静态数据（JSON）
 │   │   ├── categories.json
 │   │   ├── applications.json
+│   │   ├── products.json
 │   │   └── {category}/     # 各类别的产品数据
-│   └── assets/             # 样式和资源
+│   │        ├── chains.json
+│   │        ├── index.json
+│   │        └── attachments.json
+│   ├── assets/             # 样式和资源
+│   │   ├── App.css
+│   │   └── index.css
+│   └── main.jsx            # 应用入口
 ├── public/                 # 静态资源（图片、PDF 等）
-├── scripts/                # 构建脚本（CSV 转 JSON）
-└── package.json
+│   ├── images/
+│   │   ├── applications/
+│   │   ├── categories/
+│   │   └── drawings/
+├── package.json            # 项目配置
+├── tailwind.config.js      # Tailwind CSS 配置
+├── postcss.config.js       # PostCSS 配置
+├── vite.config.js          # Vite 配置
+├── eslint.config.js        # ESLint 配置
+└── README.md               # 项目说明
 ```
 
-## 🚀 快速开始
+## 部署
 
-### 安装
+支持 Vercel、Netlify、GitHub Pages 或自托管。构建后将 dist 目录部署到静态服务器即可。
 
-```bash
-cd chain-platform
-npm install
-```
+## 版权说明
 
-### 开发环境
-
-```bash
-npm run dev
-```
-
-访问 `http://localhost:5173`，支持热更新（HMR）。
-
-### 生产构建
-
-```bash
-npm run build
-```
-
-生成优化后的 `dist/` 文件夹，可直接部署到任何静态服务器。
-
-### 预览生产构建
-
-```bash
-npm run preview
-```
-
-## 📊 数据结构
-
-产品数据存储在 `src/data/` 中，采用 JSON 格式：
-
-```
-src/data/
-├── categories.json         # 产品分类元数据
-├── applications.json       # 应用场景配置
-└── {category-slug}/
-    ├── index.json          # 链条设计（Design）
-    ├── chains.json         # 产品列表和规格参数
-    └── attachments.json    # 配件信息
-```
-
-## 🔧 主要特性
-
-### 1. 灵活的分类系统
-- 支持多种链条类型（棕榈油、制糖、焊接、水泥等）
-- 可通过 `is_active` 字段隐藏未上线的分类
-
-### 2. 完整的产品信息
-- 规格参数（节距、宽度、强度等）
-- 关联的配件（Attachments）
-- 产品图片和技术图纸
-
-### 3. 应用场景映射
-- 每个应用（Application）关联多个产品分类
-- 用户可从应用入口快速找到相关产品
-
-### 4. 响应式 UI
-- 使用 Tailwind CSS 确保各屏幕尺寸完美显示
-- 移动优先设计理念
-
-## 📝 代码规范
-
-- ESLint 配置检查代码质量
-- 使用 React Hooks 管理状态
-- 文件组织按功能模块分类
-
-## 🌐 部署
-
-项目支持多种部署方式：
-
-### Vercel / Netlify（推荐）
-1. 将仓库连接到 Vercel/Netlify
-2. 设置构建命令：`npm run build`
-3. 设置发布目录：`dist`
-4. 自动部署完成
-
-### GitHub Pages
-```bash
-npm run build
-# 将 dist 内容推送到 gh-pages 分支
-```
-
-### 自托管
-```bash
-npm run build
-# 将 dist 文件夹上传到 Web 服务器根目录
-```
-
-## 📄 许可证
-
-此项目为课程作业，仅供学习和演示之用。
-
-## 👨‍💻 作者
-
-Created as a course project for CIT693 at Northern Arizona University.
+本项目仅供学习和课程演示使用。
